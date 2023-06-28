@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star rating </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .rating i {
+      font-size: 35px;
+      transition: all 0.2s;
+      cursor: pointer;
+      /* color: rgb(233, 0, 0); */
+    }
+
+    .rating i.selected {
+      color: #d9ff00;
+      transform: scale(1.2);
+    }
+
+    .fa-star {
+      color: #ffffff;
+    }
+
+    body {
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="rating">
+    <i class="rating_stars fa-solid fa-star" data-rating="1"></i>
+    <i class="rating_stars fa-solid fa-star" data-rating="2"></i>
+    <i class="rating_stars fa-solid fa-star" data-rating="3"></i>
+    <i class="rating_stars fa-solid fa-star" data-rating="3"></i>
+    <i class="rating_stars fa-solid fa-star" data-rating="5"></i>
+    <p id="demo" style="color: #ffffff;"></p>
+  </div>
+
+  <div style="color: #d9ff00;">HElllllllllllloooooooooOOOOOOOOOOOO</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
